@@ -1,5 +1,5 @@
 # require modules here
-require 'yml'
+require 'yaml'
 def load_library
 hash = YAML.load_file(path)
   get_meaning = {}
